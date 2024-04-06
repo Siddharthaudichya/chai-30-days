@@ -15,5 +15,11 @@ var accountPass = "aushfh";   //I var we can redefine the variable and reasign t
 
 console.table([accountId, accountEmail, accountPass, accountCity, accountState]);
 
-// prefer not to use var
-// because of issue in block scope and functional scope
+// prefer not to use var.
+// because of issue in block scope and functional scope.
+
+// function scope = when a variable is declared inside a function, it is only accessible within that funtion and cannot be used outside that function.
+// Block scope = A variable when declared inside if , for, switch, loop, while , are accessible within that particular condition or loop.
+
+// var is a functional scope.
+// let and cons are block scope.
