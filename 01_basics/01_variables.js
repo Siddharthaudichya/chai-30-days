@@ -23,3 +23,4 @@ console.table([accountId, accountEmail, accountPass, accountCity, accountState])
 
 // var is a functional scope.
 // let and cons are block scope.
+//gheheh
