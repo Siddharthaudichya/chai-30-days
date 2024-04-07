@@ -22,5 +22,5 @@ console.table([accountId, accountEmail, accountPass, accountCity, accountState])
 // Block scope = A variable when declared inside if , for, switch, loop, while , are accessible within that particular condition or loop.
 
 // var is a functional scope.
-// let and cons are block scope.
+// let and const are block scope.
 //gheheh
