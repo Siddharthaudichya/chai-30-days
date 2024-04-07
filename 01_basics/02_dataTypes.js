@@ -13,14 +13,14 @@ let state = null;
 
 // checking equal to and strictly equal to
 let sage = 18; // Number
-let sex = "18"; // String
+let mage = "18"; // String
 // Equal to
-console.log(sage == sex);
+console.log(sage == mage);
 // Strictly equal to
-console.log(sage === sex);
+console.log(sage === mage);
 
 // Define symbol
-let x = Symbol('sex');
+let x = Symbol('prajwal');
 console.log(x.description);
 
 // Object
