@@ -1,6 +1,9 @@
-// let score = 33;
-// const namee ="ajay bhaiya";
-// //let score = 44;
-// namee ="ajay bhaiya";
+let score = "78";
 
-// console.log(namee);
+console.log(score + 78);
+console.log(typeof(score));
+
+score = Number(score);
+
+console.log(valueInNumber + 78);
+console.log(typeof(valueInNumber));
