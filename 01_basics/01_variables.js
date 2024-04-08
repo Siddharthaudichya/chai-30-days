@@ -1,3 +1,4 @@
+// Lecture 4
 const accountId = 63764;   //const variable value never changes.
 let accountEmail = "siddharth";
 var accountPass = "12345";

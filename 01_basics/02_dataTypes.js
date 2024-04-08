@@ -1,3 +1,4 @@
+// Lecture 5
 let age = 18;
 let isLoggedIn = false;
 let state = null;
