@@ -68,3 +68,30 @@ console.log(converted3 + 12); //1212
 
 // 
 console.log("---------------");
+
+// Lecture 7
+// Extra knowledge
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+// In below two cases: String conversion is given priority
+console.log("1" + 2 + 2); // 122, in this first element is string so rest of the elements are converted into string
+console.log(1 + 2 + "2"); // 32, in this first element is number so it adds all the numbers until it finds a string and then it is converted into string
+
+console.log(+true); // 1
+console.log(+""); // 0
+
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
+
+
+// Post and Pre Increment (Works same in decrement operator)
+let counter = 100;
+
+let output = 2 + ++counter;
+console.log(output); // 103
+
+// output = 0;
+counter = 100;
+
+output = 2 + counter++
+console.log(output); // 102
