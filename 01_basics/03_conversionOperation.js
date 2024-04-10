@@ -17,7 +17,7 @@ console.log("---------------");
 // NaN(Not a Number) 
 let score2 = "33abc";
 
-// Convert `dalla` into Number data type
+// Convert `converted1` into Number data type
 let converted1 = Number(score2);
 
 // Check the value of `converted`

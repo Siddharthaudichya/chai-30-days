@@ -8,7 +8,7 @@ let accountState;
 //accountId = 356636;    value cannot be changed of constant
 // console.log(accountId);  
 
-accountEmail = "asdjfj";    // you cannot define same variable again but change the value
+accountEmail = "asdjfj";     // you cannot define same variable again but change the value
 //  console.log(accountEmail);  
 
 var accountPass = "aushfh";   //I var we can redefine the variable and reasign the value
