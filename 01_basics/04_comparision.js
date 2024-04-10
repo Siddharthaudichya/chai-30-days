@@ -30,4 +30,4 @@ console.log("---------");
 // Strict checking with ===
 // It checks values as well as data types
 console.log("2" == 2); // True
-console.log("2" === 2); // Flase
+console.log("2" === 2); // False
