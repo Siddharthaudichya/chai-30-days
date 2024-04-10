@@ -3,19 +3,23 @@ let age = 18;
 let isLoggedIn = false;
 let state = null;
 
-//Types of data types (Primitive)
-// number => 2^53
-// bigInt
-// string = ""
-// boolean = true/false
-// null = standalone value (Value hai but empty)
-// undefined => Value not assigned
-// symbol => unique
+/*
+Types of data types (Primitive)
+number => 2^53
+bigInt
+string = ""
+boolean = true/false
+null = standalone value (Value hai but empty)
+undefined => Value not assigned
+symbol => unique  
+*/
 
-// non primitive data types
-// Arrays 
-// functions(methods)
-// object
+/*
+non primitive data types
+Arrays 
+functions(methods)
+object
+*/
 
 // checking equal to and strictly equal to
 let sage = 18; // Number
