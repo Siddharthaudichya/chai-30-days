@@ -12,6 +12,11 @@ let state = null;
 // undefined => Value not assigned
 // symbol => unique
 
+// non primitive data types
+// Arrays 
+// functions(methods)
+// object
+
 // checking equal to and strictly equal to
 let sage = 18; // Number
 let mage = "18"; // String
