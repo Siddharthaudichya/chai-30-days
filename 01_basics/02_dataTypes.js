@@ -93,3 +93,4 @@ let index2 = function(fName, lName) {
 }
 
 console.log(index2(FirstName, LastName));
+console.log(ajaybhaiya);
