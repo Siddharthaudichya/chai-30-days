@@ -44,7 +44,7 @@ const url = "https://www.google.com/siddharth%20audichya";
 console.log(url.replace("%20", "-"));
 
 //includes(search string): Searches for the availability of a string in the given integer
-console.log(url.includes("google"));
+console.log(url.includes("google")); 
 
 //split(separator, limit): creates an array of strings separated by delimeter(-)(separator)
 console.log(name2.split("-"));
