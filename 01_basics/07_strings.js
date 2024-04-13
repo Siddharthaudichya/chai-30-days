@@ -4,7 +4,7 @@ age = 35;
 
 console.log(name1 + age + " value");  // however this method of displaying results is device.
 
-// use backticks instead
+// use backticks instead (string interpolation)
 console.log(`naam:${name1}    age:${age}`);
 
 // Defining string as object
