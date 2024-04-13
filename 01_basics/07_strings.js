@@ -3,7 +3,7 @@ const num = 20;
 
 console.log(name1 + num + " value"); // However this method of displaying reseults is obsolete
 
-// Use backticks instead
+// String Interpolation: Use backticks instead with proper placeholders
 console.log(`${name1}${num} value`);
 
 
