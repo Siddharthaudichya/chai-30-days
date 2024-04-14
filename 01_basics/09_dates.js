@@ -31,4 +31,3 @@ console.log(newDate.toLocaleString('default', {
 let myDate = new Date("May 06, 2024, 13:25:58");
 
 console.log(myDate.toLocaleString());
-
