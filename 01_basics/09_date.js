@@ -14,6 +14,7 @@ console.log(newDate.getFullYear());
 console.log(newDate.getMonth() + 1); // We added 1 because month starts from 0
 console.log(newDate.getDay());
 
+
                                   //Internationalization
 console.log(newDate.toLocaleString('default', {
     weekday: "long",
@@ -28,6 +29,11 @@ console.log(newDate.toLocaleString('default', {
 // let myDate = new Date(2023, 0, 23, 20, 3, 20); //{year, month, day, hours, minutes, seconds} Month starts from 0 here. Input time should be in 24-hrs format
 // let myDate = new Date("2023-01-14");
 // let myDate = new Date("01-14-2023");
-let myDate = new Date("May 06, 2024, 13:25:58");
+let myDate = new Date("April 12, 2024, 13:25:58");
 
 console.log(myDate.toLocaleString());
+
+let Difference = newDate.getVarDate - myDate.getVarDate;
+console.log(Difference);
+console.log(newDate.getDate());
+console.log(myDate.getDate());
