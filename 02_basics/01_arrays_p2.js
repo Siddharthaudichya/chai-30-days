@@ -56,3 +56,14 @@ console.log(Array.from({name: "Kiku"})); // [] // It returns empty array as valu
 
 // of(items): Works similar to from()
 console.log(Array.of(1, 2, 3, 4, "Kiku")); // [1, 2, 3, 4, 'Kiku']
+
+// 
+console.log("------------");
+
+
+// map(function): Picks up individual element from the array and performs the function specified in the map parmeter. Returns full array after the operation.
+let myArr = [4, 9, 16, 25];
+console.log(myArr.map(Math.sqrt)); // [2, 3, 4, 5]
+
+// Custom function in map
+console.log(myArr.map((add) => add + 1)); // [5, 10, 17, 26]
