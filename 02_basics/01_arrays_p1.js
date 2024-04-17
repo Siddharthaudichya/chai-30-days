@@ -10,13 +10,13 @@ const arr1 = [1, 2, 3, "Kiku", true];
 const arr2 = new Array(1, 2, 3, "Kiku", true);
 
 // Accesing data from array
-console.log(arr2[0]);
+console.log(arr2[0]); // 1
 
 // Some array function
 
 // push(items): Appends new data elements to the end of the array
 arr2.push(6, "Shinu", 8);
-console.log(`push(): ${arr2}`); // [1, 2, 3, "Kiku", true, 6, "Shinu", 8]
+console.log(`push(6, "Shinu", 8): ${arr2}`); // [1, 2, 3, "Kiku", true, 6, "Shinu", 8]
 
 // pop(): Removes an element from the end of the array
 arr2.pop();
@@ -27,7 +27,7 @@ arr2.unshift(0); /* It is not recommended to use this function as it is expensiv
                     It adds the data at the first index while shifting all the data to the next index.
                     However using it in small arrays is okay but in arrays on production level should be avoided.
                 */
-console.log(`unshift(): ${arr2}`); // [0, 1, 2, 3, Kiku, true, 6, Shinu]
+console.log(`unshift(0): ${arr2}`); // [0, 1, 2, 3, Kiku, true, 6, Shinu]
 
 // shift(): Removes an element from the beginning of the array
 arr2.shift();    /* It is not recommended to use this function as it is expensive and resource intensive.
@@ -66,7 +66,7 @@ console.log("Original Array after slice(): ", arr4); // [0, 1, 2, 3, 4, 5]
 // splice(start index, end index): Extracts values from the start index till the end index and also deletes those values from the original array
 console.log("After splice(): ", arr4.splice(1, 3)); // [1, 2, 3]
 
-console.log("Original Array after slice(): ", arr4); // [0, 4, 5]
+console.log("Original Array after splice(): ", arr4); // [0, 4, 5]
 
 /* Difference between slice() and splice()
     In slice values are extracted from the start till one less than the end index and the original array is retained
