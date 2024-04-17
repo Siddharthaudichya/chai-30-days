@@ -40,7 +40,7 @@ console.log(`shift(): ${arr1}`);  // shift(): 1,2,3,3,dalla,false,4,5,6
 console.log(arr1.includes(6));
 
 // indexOf(data): Returns the index of the specified data in the parameter. Returns -1 if the data is not present
-console.log(arr1.indexOf("shinu"));  // 3
+console.log(arr1.indexOf("shinu"));  // -1
 
 // Join(Separators): Returns concatanated values of the array using the separator. Returns string.
 const arr2 = arr1.join("|");
@@ -62,7 +62,7 @@ console.log("Original Array after slice(): ", arr4); // [0, 1, 2, 3, 4, 5]
 // splice(start index, end index): Extracts values from the start index till the end index and also deletes those values from the original array
 console.log("After splice(): ", arr4.splice(1, 3)); // [1, 2, 3]
 
-console.log("Original Array after slice(): ", arr4); // [0, 4, 5]
+console.log("Original Array after splice(): ", arr4); // [0, 4, 5]
 
 /* Difference between slice() and splice()
     In slice values are extracted from the start till one less than the end index and the original array is retained
