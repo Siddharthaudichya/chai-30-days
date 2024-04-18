@@ -4,7 +4,7 @@
 */
 
 
-let mySym = Symbol("sym1")
+let mySym = Symbol("sym1");
 
 // Objects as literals
 const empInfo = {
@@ -17,7 +17,7 @@ const empInfo = {
     salutation: () => {
         console.log(`Hello ${empInfo.name}`); // this.name doesn't work here because function is defined as `() => {}`
     },
-}
+}; // Non Singleton
 
 // Ways to access data from object
 console.log(empInfo.name); // Using dot operator // Kiku
@@ -33,11 +33,11 @@ console.log("--------");
 // Making function inside object
 empInfo.init = () => {
     console.log("Kiku Production");
-}
+};
 
-empInfo.loggedInAs = function(e) {
+empInfo.loggedInAs = function() {
     console.log(`You are logged in as ${this.userName}`);
-}
+};
 
 // Calling functions inside empInfo Object
 console.log(empInfo.init); // [Function (anonymous)]
