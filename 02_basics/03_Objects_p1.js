@@ -9,13 +9,14 @@ let mySym = Symbol("shinu");
 const empInfo = {
     id: 56,
     name: "siddharth",
+    userName: "Hello_shinu",
     email: "shinu@gmail.com",   
     [mySym]: "sym2", // To use symbol in object this is how the syntax looks like
     "full name": "shinu 56",
     salutation: () => {
     console.log(`hello:${empInfo.name}`);
     }
-};
+};  
 
 // Ways to access data from object
 console.log(empInfo.name); // Using dot operator // Kiku
@@ -33,7 +34,7 @@ empInfo.init = () => {
     console.log("Kiku Production");
 };
 
-empInfo.loggedInAs = function(e) {
+empInfo.loggedInAs = function() {
     console.log(`You are logged in as ${this.userName}`);
 };
 
@@ -52,3 +53,4 @@ Object.freeze(empInfo);
 
 empInfo.email = "kiku@c++.com";
 console.log(empInfo["email"]); // kiku@js.com // No change
+
