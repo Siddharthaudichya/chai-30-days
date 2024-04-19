@@ -86,3 +86,13 @@ console.log(Object.entries(empInfo));
 // hasOwnProperty(toSearch): Returns a boolean result by checking if the specified key is present in the object or not.
 console.log(empInfo.hasOwnProperty('email')); // true
 console.log(empInfo.hasOwnProperty('city')); // false
+
+
+// 
+console.log("--------");
+
+
+// Object De-structure
+const {userName: user, email} = empInfo;
+
+console.log(`Username: ${user}\nEmail: ${email}`);
