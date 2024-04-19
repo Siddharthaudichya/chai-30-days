@@ -1,4 +1,5 @@
 // Lecture 4
+// let, const and var are variable
 const accountId = 63764;   //const variable value never changes.
 let accountEmail = "siddharth";
 var accountPass = "12345";
@@ -24,4 +25,3 @@ console.table([accountId, accountEmail, accountPass, accountCity, accountState])
 
 // var is a functional scope.
 // let and const are block scope.
-//gheheh
