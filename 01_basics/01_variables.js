@@ -6,6 +6,10 @@ var accountPass = "12345";
 var accountCity = "Bhopal";
 let accountState;
 
+// Identifieers: They are the names of functions, variables, types and labels
+// Literals: Values of constant variables are called literals. They represent that values are final and cannot be changed.
+// Keywords: They are reserve words that have predefined functionality and are part of the syntax in any programming language.
+
 //accountId = 356636;    value cannot be changed of constant
 // console.log(accountId);  
 
