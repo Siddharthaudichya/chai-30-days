@@ -43,13 +43,11 @@ let simpleFunc = () => {
 simpleFunc();
 
 // If we open a scope and want to `return` something to the function then we have to write the `return` keyword
-let complexCalc = (num1, num2) => {
-    return num1 + num2;
-};
+let complexCalc = (num1, num2) => { return num1 + num2; }; // Explicit return
 console.log(complexCalc(4, 5)); // 9
 
 // If we don't open a scope and it is a one line operation want to `return` something to the function then we don't have to write the `return` keyword
-let oneLineCalc1 = (num1, num2) => ( num1 + num2 );
+let oneLineCalc1 = (num1, num2) => ( num1 + num2 ); // Implicit return
 console.log(oneLineCalc1(1, 2)); // 3
 
 // If we want ot return an object, this is how we do
@@ -58,7 +56,11 @@ let oneLineCalc2 = () => ( {username: "kiku__69",
 } );
 console.log(oneLineCalc2());
 
+// 
+console.log("--------------------");
 
+
+// Example of arrow function in action
 let myArr = [1, 4, 9, 16, 25];
 console.log("Array before forEach(): ", myArr);
 /* forEach(element, index, array): Iterates through the array and performs operations on each element. Arguments consists of `element` currently
