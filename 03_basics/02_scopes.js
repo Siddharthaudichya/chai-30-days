@@ -74,7 +74,7 @@ function one()
     two();
 
     // console.log(website); // This will return an error as it `website` is not declared in this scope
-}
+};
 
 one();
 
@@ -84,7 +84,7 @@ one();
 addOne(5); // In this case it wont return any error
 function addOne(num) {
     return num + 1;
-}
+};
 
 
 // addTwo(5); // If a function is defined as expression or variable, and this function is called before its definition, then it will return an error saying, `Cannot access before initialization`
@@ -92,7 +92,7 @@ function addOne(num) {
 // Expression form of function definition
 const addTwo = function (num) {
     return num + 2;
-}
+};
 addTwo(5);
 // This is an important example of Javascript `HOISTING`
 
