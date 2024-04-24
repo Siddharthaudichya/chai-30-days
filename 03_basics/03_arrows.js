@@ -27,7 +27,8 @@ function userInfo() {
     // let fullName = "Kishlay";
     // console.log(this.fullName); // undefined // This is not how we use `this` function
 
-    console.log(this); // It will display all the `global functions` in NodeJS environment. // It display `window object` in browser environment
+    console.log(this); // It will display all the `global functions` in NodeJS environment.
+     // It display `window object` in browser environment
 };
 userInfo();
 
@@ -50,7 +51,7 @@ console.log(complexCalc(4, 5)); // 9
 let oneLineCalc1 = (num1, num2) => ( num1 + num2 ); // Implicit return
 console.log(oneLineCalc1(1, 2)); // 3
 
-// If we want ot return an object, this is how we do
+// If we want to return an object, this is how we do
 let oneLineCalc2 = () => ( {username: "kiku__69",
                             fullName: "Kishlay"
 } );
@@ -62,12 +63,13 @@ console.log("--------------------");
 
 // Example of arrow function in action
 let myArr = [1, 4, 9, 16, 25];
+let a = [];
 console.log("Array before forEach(): ", myArr);
 /* forEach(element, index, array): Iterates through the array and performs operations on each element. Arguments consists of `element` currently
     being passed, index of the current element and full `array` that is in consideration
 */ 
 myArr.forEach((value, index) => {
-    myArr[index] = Math.sqrt(value); // Replacing each value in `myArr`
+    a[index] = Math.sqrt(value); // Replacing each value in `myArr`
 });
 
-console.log("Array after forEach(): ", myArr);
+console.log("Array after forEach(): ", a);
