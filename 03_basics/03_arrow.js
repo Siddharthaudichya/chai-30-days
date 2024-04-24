@@ -16,7 +16,7 @@ empInfo.fullName = "Shinu"; // Here we changed the current context
 // Calling it again to check what is in the current context
 empInfo.greeting(); // { username: 'kiku__69', fullName: 'Shinu', age: 69, greeting: [Function: greeting] } // Hello Shinu
 
-// In node environment, current context of `this` called in global scope is empty object
+// In node environment, current context of `this` called in global scope is empty object // It display `window object` in browser environment
 console.log(this); // {}
 
 // 
@@ -50,7 +50,7 @@ console.log(complexCalc(4, 5)); // 9
 let oneLineCalc1 = (num1, num2) => ( num1 + num2 ); // Implicit return
 console.log(oneLineCalc1(1, 2)); // 3
 
-// If we want ot return an object, this is how we do
+// If we want to return an object, this is how we do
 let oneLineCalc2 = () => ( {username: "kiku__69",
                             fullName: "Kishlay"
 } );
